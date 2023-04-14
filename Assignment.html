@@ -4,30 +4,108 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
+    <title>Assignment Correction</title>
+    <style>
+        h1 {
+            font-size: 40px;
+        }
+        .label1 {
+            margin-left: 230px;
+        }
+        .input1{
+            margin-left: 20px;
+            background-color: lightgrey;
+        }
+        label {
+            font-size: 20px;
+        }
+        #input1 {
+            width: 250px;
+            height: 50px;
+            border-radius: 8px;
+        }
+        .input2 {
+            margin-left: 20px;
+        }
+        .label2 {
+            margin-right: 150px;
+        }
+        .input3 {
+            height: 50px;
+        }
+        select {
+            width: 180px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .comment {
+            font-size: 20px;
+        }
+    button {
+        margin-left: 350px;
+        background-color: blue;
+        color: white;
+        border: none;
+        font-size: 20px;
+        padding: 5px 15px;
+        opacity: 0.8;
+    }
+ </style>
 </head>
 <body>
-    <h1>Registration Form</h1>
     <form>
-       <label>Name:</label>
-       <input type="text">
-       <br>
-       <label>Password: </label>
-       <input type="password">
-       <br>
-       <label>Gender: </label>
-       <input type="radio">
-       <label>Female</label>
-       <input type="radio">
-       <label>Male</label>
-       <br>
-       <label>Email: </label>
-       <input type="mail">
-       <br>
-       <label>Phone No.: </label>
-       <input type="tel"
-       <br>
-       <input type="submit"> 
-    </form>
+    <h1>Your Order</h1>
+    <label>Name</label>
+    <label class="label1">Email Address</label>
+    <br>
+    <input type="text" placeholder="Your full name" id="input1">
+    <input type="email" placeholder="chuck@roundhouse.com" class="input1" id="input1">
+    <br>
+    <label>Address</label>
+    <br>
+    <input type="text" placeholder="9 Augusta Street" id="input1">
+    <input type="text" placeholder="Suite 122" id="input1" class="input2">
+    <br>
+    <label class="label2">City</label>
+    <label class="label2">State</label>
+    <label>ZIP</label>
+    <br>
+    <input type="text" placeholder="New Jersey" class="input3">
+    <select class="input3">
+        <option>New York</option>
+        <option>Carlifonia</option>
+        <option>Seattle</option>
+    </select>
+    <input type="number" class="input3" placeholder="726221">
+    <p>What color samples should we send you?</p>
+    <input type="checkbox">
+    <label>White</label>
+    <input type="checkbox">
+    <label>Magenta</label>
+    <input type="checkbox">
+    <label>Coral</label>
+    <input type="checkbox">
+    <label>Burgundy</label>
+    <input type="checkbox">
+    <label>Charcoal</label>
+    <p>How large is your team?</p>
+    <input type="radio">
+    <label>1-5 people</label>
+    <input type="radio">
+    <label>6-10 people</label>
+    <input type="radio">
+    <label>10+ people</label>
+    <br>
+    <br>
+    <label class="comment">Comments</label>
+    <br>
+    <textarea name="" id="" cols="100" rows="15" placeholder="Please also send me one of your catalogs so I can show your products to other people in my industry."></textarea>
+    <br>
+    <input type="checkbox">
+    <label>Sign up for special offers</label>
+    <button>Place Order</button>
+    </form> 
+    
 </body>
 </html>
